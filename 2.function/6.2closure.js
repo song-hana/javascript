@@ -1,8 +1,6 @@
 const age = 16
 
-console.log(sayAge)
-
-{
+function init() {
     let age = 10
 
     function sayAge() {
@@ -17,4 +15,4 @@ console.log(sayAge)
     tellAge()
 }
 
-sayAge()
+init()
